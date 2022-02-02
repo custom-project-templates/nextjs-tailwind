@@ -4,6 +4,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   corePlugins: {
+    // disabled preflight to prevent styles being conflict with external ui libraries
     preflight: false,
   },
   theme: {},
