@@ -11,4 +11,4 @@
     npx create-next-app@latest -e https://github.com/custom-project-templates/nextjs-tailwind/tree/antd
     ```
 2. view terminal output to start running
-3. replace this readme file content to your project related 
+3. config your theme in `src/_app.tsx` 
