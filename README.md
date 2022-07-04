@@ -1,9 +1,8 @@
 ## Template Introduction
 
 - nextjs v12
-- react v17
 - tailwindcss v3
-- typescript v4.5
+- typescript v4
 
 ## Templte Usage
 1. download template:
