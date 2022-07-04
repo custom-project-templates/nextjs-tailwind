@@ -1,3 +1,11 @@
+/* https://ant.design/docs/react/customize-theme-variable */
+@import 'antd/dist/antd.variable.min.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* tailwind with preflight:false made some class such a 'divide' not work, manually add this code to fix */
+*, ::before, ::after {
+    border-width: 0;
+    border-style: solid;
+}
