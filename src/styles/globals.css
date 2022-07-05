@@ -9,3 +9,7 @@
     border-width: 0;
     border-style: solid;
 }
+
+#__next {
+    height: 100%
+}
